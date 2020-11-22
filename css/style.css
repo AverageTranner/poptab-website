@@ -1,0 +1,66 @@
+body{
+    background-color: #fbbbbd;
+}
+.welcome{
+  font: 28px "Marker Felt", "Zapfino", cursive;
+  display: flex;
+  animation: pulse 5s infinite;
+  animation: slidein 5s;
+  color: white;
+}
+.welcome-bg{
+  background-color: #FFC0CB;
+}
+
+/*
+.nav{
+  overflow:hidden;
+  background-color: #FFB6C1;
+}
+
+.nav a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  background-color: #DB7093;
+}
+*/
+
+.anime-bitch{
+  position: absolute;
+  top: 80px;
+  right: 1600px;
+  width: 200px;
+  height: 100px;
+}
+
+.wrapper {
+  margin: 0;
+  width: 620px;
+  height: 500px;
+  border-style: 1px solid black;
+  color: white;
+}
+
+@keyframes pulse {
+  0%{
+    color: : red;
+  }
+  100%{
+    color: blue;
+  }
+
+}
+
+@keyframes slidein {
+  from{
+    margin-left: 100%;
+    width: 300%
+  }
+}
