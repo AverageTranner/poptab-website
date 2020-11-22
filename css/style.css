@@ -41,7 +41,7 @@ div:hover{
   height: 100px;
 }
 .welcome-container{
-  animation: slidein 5s;
+  animation: fadein 5s;
 }
 .welcome-container {
   border-radius: 25px;
@@ -54,6 +54,7 @@ div:hover{
   background-color: white;
 }
 .welcome-content{
+    animation: fadein 10s;
     font-family: Lucida Console, Courier New, Times New Roman;
     color: 	#DB7093;
     position: absolute;
@@ -78,4 +79,12 @@ div:hover{
     margin-left: 100%;
     width: 300%
   }
+}
+@keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100;
+    }
 }
