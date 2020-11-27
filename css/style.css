@@ -3,7 +3,8 @@ body{
 }
 
 .logo {
-  border-radius: 50%;
+  font-family: Lucida Console, Courier New, Times New Roman;
+  border-radius: 25px;
   font-style: oblique;
   font-style: bolder;
   text-align: center;
@@ -27,6 +28,7 @@ body{
 }
 
 .nav a{
+  font-family: Lucida Console, Courier New, Times New Roman;
   float: left;
   display: block;
   color: white;
@@ -52,7 +54,7 @@ body{
 }
 .about-container {
   border-radius: 25px;
-  border: 3px solid #DB7093;
+  border: 3px solid #FF69B4;
   padding: 5px;
   margin: 0px;
   margin-top: 150px;
@@ -63,12 +65,12 @@ body{
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: #FFC0CB;
 }
 .about-content{
     animation: fadein 10s;
     font-family: Lucida Console, Courier New, Times New Roman;
-    color: 	#DB7093;
+    color: 	white;
     position: absolute;
     top: 50%;
     left: 50%;
